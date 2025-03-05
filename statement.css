@@ -1,0 +1,12 @@
+h1{
+    display:flex;margin-top: 50px;color:maroon;font-size: 20pt;
+}
+h2{
+    display:flex;margin-top: 19px;color:orangered;font-size: 15pt;
+
+}
+h3
+{
+    display:inline-block;margin-bottom: 19px;color:blueviolet;font-size: 15pt;font-style: italic;
+
+}

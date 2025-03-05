@@ -1,0 +1,34 @@
+h1{
+    display:flex;margin-top: 50px;color:maroon;font-size: 20pt;
+}
+/* styles.css */
+#content {
+    font-family: Arial, sans-serif;
+}
+
+.message {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#stock {
+    color: green;
+}
+
+#Shipping {
+    color: red;
+}
+
+/* Add a check mark (✓) for Available */
+#stock:before {
+    content: "✓ ";
+    color: green;
+    font-weight: bold;
+}
+
+/* Add a wrong mark (✘) for Shipping */
+#Shipping:before {
+    content: "✘ ";
+    color: red;
+    font-weight: bold;
+}
